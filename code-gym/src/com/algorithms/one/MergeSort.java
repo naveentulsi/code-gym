@@ -34,6 +34,7 @@ public class MergeSort {
 		Stream<int []> arrStrm = Stream.of(arr);
 		IntStream intstrm2 = arrStrm.flatMapToInt(x -> Arrays.stream(x));
 		//intstrm2.forEach(x -> System.out.print(x));
+		
 	}
 	
 	private static int[] sort(int [] arr) {
