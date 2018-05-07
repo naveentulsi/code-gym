@@ -1,6 +1,6 @@
 package com.practice.basic;
 
-public class AreaOfaHexagon {
+public class AreaOfHexagon {
 
 	public static void main(String[] args) {
 		double side = 6;
