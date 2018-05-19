@@ -4,14 +4,14 @@ package com.algorithms.one;
  * Knuth-Morris-Pratt (KMP) Pattern Matching Algorithm
  * 
  */
-public class StringSearch {
+public class KMPStringSearch {
 
 	public static void main(String[] args) {
 
 
 		String pattern = "abcdabcy";
 		String text = "abcxabcdabcdabcy";
-		StringSearch ss = new StringSearch();
+		KMPStringSearch ss = new KMPStringSearch();
 		int [] intPattern = ss.patternintArray(pattern.toCharArray());
 		ss.KMP(text.toCharArray(), pattern.toCharArray(), intPattern);
 
